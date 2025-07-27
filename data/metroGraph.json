@@ -1,0 +1,689 @@
+{
+
+
+
+  "Dwarka Sector 21": [{ "station": "Dwarka Sector 8", "time": 2, "cost": 5, "line": "blue" }],
+  "Dwarka Sector 8": [
+    { "station": "Dwarka Sector 21", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 9", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 9": [
+    { "station": "Dwarka Sector 8", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 10", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 10": [
+    { "station": "Dwarka Sector 9", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 11", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 11": [
+    { "station": "Dwarka Sector 10", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 12", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 12": [
+    { "station": "Dwarka Sector 11", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 13", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 13": [
+    { "station": "Dwarka Sector 12", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Sector 14", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Sector 14": [
+    { "station": "Dwarka Sector 13", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka": [
+    { "station": "Dwarka Sector 14", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Dwarka Mor", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Dwarka Mor": [
+    { "station": "Dwarka", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Nawada", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Nawada": [
+    { "station": "Dwarka Mor", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Uttam Nagar West", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Uttam Nagar West": [
+    { "station": "Nawada", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Uttam Nagar East", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Uttam Nagar East": [
+    { "station": "Uttam Nagar West", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Janakpuri West", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Janakpuri West": [
+    { "station": "Uttam Nagar East", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Janakpuri East", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Janakpuri East": [
+    { "station": "Janakpuri West", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Tilak Nagar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Tilak Nagar": [
+    { "station": "Janakpuri East", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Subhash Nagar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Subhash Nagar": [
+    { "station": "Tilak Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Tagore Garden", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Tagore Garden": [
+    { "station": "Subhash Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Rajouri Garden (blue line)", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Rajouri Garden (blue line)": [
+    { "station": "Tagore Garden", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Ramesh Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Rajouri Garden (pink line)", "time": 5, "cost": 0, "line": "pink" }
+  ],
+  "Ramesh Nagar": [
+    { "station": "Rajouri Garden (blue line)", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Moti Nagar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Moti Nagar": [
+    { "station": "Ramesh Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Kirti Nagar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Kirti Nagar": [
+    { "station": "Moti Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Shadipur", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Shadipur": [
+    { "station": "Kirti Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Patel Nagar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Patel Nagar": [
+    { "station": "Shadipur", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Rajendra Place", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Rajendra Place": [
+    { "station": "Patel Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Karol Bagh", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Karol Bagh": [
+    { "station": "Rajendra Place", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "R K Ashram Marg", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "R K Ashram Marg": [
+    { "station": "Karol Bagh", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Rajiv Chowk (blue line)", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Rajiv Chowk (blue line)": [
+    { "station": "R K Ashram Marg", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Barakhamba Road", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Rajiv Chowk (yellow line)", "time": 5, "cost": 0, "line": "yellow" }
+  ],
+  "Barakhamba Road": [
+    { "station": "Rajiv Chowk (blue line)", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Mandi House", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Mandi House": [
+    { "station": "Barakhamba Road", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Pragati Maidan", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Pragati Maidan": [
+    { "station": "Mandi House", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Indraprastha", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Indraprastha": [
+    { "station": "Pragati Maidan", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Yamuna Bank", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Yamuna Bank": [
+    { "station": "Indraprastha", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Laxmi Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Akshardham", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Laxmi Nagar": [
+    { "station": "Yamuna Bank", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Nirman Vihar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Nirman Vihar": [
+    { "station": "Laxmi Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Preet Vihar", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Preet Vihar": [
+    { "station": "Nirman Vihar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Karkarduma (blue line)", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Karkarduma (blue line)": [
+    { "station": "Preet Vihar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Anand Vihar (blue line)", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Karkarduma (pink line)", "time": 5, "cost": 0, "line": "pink" }
+  ],
+  "Anand Vihar (blue line)": [
+    { "station": "Karkarduma (blue line)", "time": 2, "cost": 5,   "line": "blue" },
+    { "station": "Kaushambi", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Anand Vihar (pink line)", "time": 5, "cost": 0, "line": "pink" },
+    { "station": "Anand Vihar (rrts)", "time": 5, "cost": 0, "line": "rrts" }
+  ],
+  "Kaushambi": [
+    { "station": "Anand Vihar (blue line)", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Vaishali", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Vaishali": [
+    { "station": "Kaushambi", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Akshardham": [
+    { "station": "Yamuna Bank", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Mayur Vihar (blue line)", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Mayur Vihar (blue line)": [
+    { "station": "Akshardham", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "New Ashok Nagar", "time": 2, "cost": 5, "line": "blue" },
+    {"station": "Mayur Vihar (pink line)", "time": 5, "cost": 0, "line": "pink" }
+  ],
+  "New Ashok Nagar": [
+    { "station": "Mayur Vihar (blue line)", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 15", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "New Ashok Nagar (rrts)", "time": 5, "cost": 0, "line": "rrts" }
+  ],
+  "Noida Sector 15": [
+    { "station": "New Ashok Nagar", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 16", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 16": [
+    { "station": "Noida Sector 15", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 18", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 18": [
+    { "station": "Noida Sector 16", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Botanical Garden", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Botanical Garden": [
+    { "station": "Noida Sector 18", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Golf Course", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Golf Course": [
+    { "station": "Botanical Garden", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida City Centre", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida City Centre": [
+    { "station": "Golf Course", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 34", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 34": [
+    { "station": "Noida City Centre", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 52", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 52": [
+    { "station": "Noida Sector 34", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 61", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 51", "time": 10, "cost": 0, "line": "aqua" }
+  ],
+  "Noida Sector 61": [
+    { "station": "Noida Sector 52", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 59", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 59": [
+    { "station": "Noida Sector 61", "time": 2, "cost": 5, "line": "blue" },
+    { "station": "Noida Sector 62", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Sector 62": [
+    { "station": "Noida Sector 59", "time": 2, "cost": 5, "line": "blue" }
+  ],
+  "Noida Electronic City": [
+    { "station": "Noida Sector 62", "time": 2, "cost": 5, "line": "blue" }
+  ],
+
+
+
+
+
+  
+  "Majlis Park": [
+    { "station": "Azadpur (pink line)", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Azadpur (pink line)": [
+    { "station": "Majlis Park", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Shalimar Bagh", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Azadpur (yellow line)", "time": 5, "cost": 0, "line": "yellow" }
+  ],
+  "Shalimar Bagh": [
+    { "station": "Azadpur (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Netaji Subhash Place", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Netaji Subhash Place": [
+    { "station": "Shalimar Bagh", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Punjabi Bagh West", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Punjabi Bagh West": [
+    { "station": "Netaji Subhash Place", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "ESI Hospital", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "ESI Hospital": [
+    { "station": "Punjabi Bagh West", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Rajouri Garden (pink line)", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Rajouri Garden (pink line)": [
+    { "station": "ESI Hospital", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Mayapuri", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Rajouri Garden (blue line)", "time": 5, "cost": 0, "line": "blue" }
+  ],
+  "Mayapuri": [
+    { "station": "Rajouri Garden (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Naraina Vihar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Naraina Vihar": [
+    { "station": "Mayapuri", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Delhi Cantonment", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Delhi Cantonment": [
+    { "station": "Naraina Vihar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Durgabai Deshmukh South Campus", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Durgabai Deshmukh South Campus": [
+    { "station": "Delhi Cantonment", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Bhikaji Cama Place", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Bhikaji Cama Place": [
+    { "station": "Durgabai Deshmukh South Campus", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Sarojini Nagar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Sarojini Nagar": [
+    { "station": "Bhikaji Cama Place", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "INA (pink line)", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "INA (pink line)": [
+    { "station": "Sarojini Nagar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "South Extension", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "INA (yellow line)", "time": 5, "cost": 0, "line": "yellow" }
+  ],
+  "South Extension": [
+    { "station": "INA (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Lajpat Nagar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Lajpat Nagar": [
+    { "station": "South Extension", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Vinobapuri", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Vinobapuri": [
+    { "station": "Lajpat Nagar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Ashram", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Ashram": [
+    { "station": "Vinobapuri", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Sarai Kale Khan-Nizamuddin", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Sarai Kale Khan-Nizamuddin": [
+    { "station": "Ashram", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Mayur Vihar (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Sarai Kale Khan(rrts)", "time": 5, "cost": 0, "line": "rrts" }
+  ],
+  "Mayur Vihar (pink line)": [
+    { "station": "Sarai Kale Khan-Nizamuddin", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Mayur Vihar Pocket 1", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Mayur Vihar (blue line)", "time": 5, "cost": 0, "line": "blue" }
+  ],
+  "Mayur Vihar Pocket 1": [
+    { "station": "Mayur Vihar (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Trilokpuri-Sanjay Lake", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Trilokpuri-Sanjay Lake": [
+    { "station": "Mayur Vihar Pocket 1", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "East Vinod Nagar-Mayur Vihar-II", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "East Vinod Nagar-Mayur Vihar-II": [
+    { "station": "Trilokpuri-Sanjay Lake", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Mandawali-West Vinod Nagar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Mandawali-West Vinod Nagar": [
+    { "station": "East Vinod Nagar-Mayur Vihar-II", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "IP Extension", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "IP Extension": [
+    { "station": "Mandawali-West Vinod Nagar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Anand Vihar (pink line)", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Anand Vihar (pink line)": [
+    { "station": "Karkarduma (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "IP Extension", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Anand Vihar (blue line)", "time": 5, "cost": 0, "line": "blue" },
+    { "station": "Anand Vihar (rrts)", "time": 5, "cost": 0, "line": "rrts" }
+  ],
+  "Karkarduma (pink line)": [
+    { "station": "Karkarduma (blue line)", "time": 5, "cost": 0, "line": "blue" },
+    { "station": "Karkarduma Court", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Anand Vihar (pink line)", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Karkarduma Court": [
+    { "station": "Karkarduma (pink line)", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Krishna Nagar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Krishna Nagar": [
+    { "station": "Karkarduma Court", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "East Azad Nagar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "East Azad Nagar": [
+    { "station": "Krishna Nagar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Welcome", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Welcome": [
+    { "station": "East Azad Nagar", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Jaffrabad", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Jaffrabad": [
+    { "station": "Welcome", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Maujpur-Babarpur", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Maujpur-Babarpur": [
+    { "station": "Jaffrabad", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Gokulpuri", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Gokulpuri": [
+    { "station": "Maujpur-Babarpur", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Johri Enclave", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Johri Enclave": [
+    { "station": "Gokulpuri", "time": 2, "cost": 5, "line": "pink" },
+    { "station": "Shiv Vihar", "time": 2, "cost": 5, "line": "pink" }
+  ],
+  "Shiv Vihar": [
+    { "station": "Johri Enclave", "time": 2, "cost": 5, "line": "pink" }
+  ],
+
+
+
+
+
+
+
+  
+  "Samaypur Badli": [
+    { "station": "Rohini Sector 18, 19", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Rohini Sector 18, 19": [
+    { "station": "Samaypur Badli", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Haiderpur Badli Mor", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Haiderpur Badli Mor": [
+    { "station": "Rohini Sector 18, 19", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Jahangirpuri", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Jahangirpuri": [
+    { "station": "Haiderpur Badli Mor", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Adarsh Nagar", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Adarsh Nagar": [
+    { "station": "Jahangirpuri", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Azadpur (yellow line)", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Azadpur (yellow line)": [
+    { "station": "Adarsh Nagar", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Model Town", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Azadpur (pink line)", "time": 5, "cost": 0, "line": "pink" } 
+  ],
+  "Model Town": [
+    { "station": "Azadpur", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "GTB Nagar", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "GTB Nagar": [
+    { "station": "Model Town", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Vishwa Vidyalaya", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Vishwa Vidyalaya": [
+    { "station": "GTB Nagar", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Civil Lines", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Civil Lines": [
+    { "station": "Vishwa Vidyalaya", "time": 2, "cost": 5, "line": "yellow" },
+    { "station": "Kashmere Gate", "time": 2, "cost": 5, "line": "yellow" }
+  ],
+  "Kashmere Gate": [
+  { "station": "Civil Lines", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Chandni Chowk", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Chandni Chowk": [
+  { "station": "Kashmere Gate", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "New Delhi", "time": 2, "cost": 5, "line": "yellow" }
+],
+"New Delhi": [
+  { "station": "Chandni Chowk", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Rajiv Chowk (yellow line)", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Rajiv Chowk (yellow line)": [
+  { "station": "New Delhi", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Patel Chowk", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Rajiv Chowk (blue line)", "time": 5, "cost": 0, "line": "blue" }
+],
+"Patel Chowk": [
+  { "station": "Rajiv Chowk (yellow line)", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Central Secretariat", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Central Secretariat": [
+  { "station": "Patel Chowk", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Udyog Bhawan", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Udyog Bhawan": [
+  { "station": "Central Secretariat", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Lok Kalyan Marg", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Lok Kalyan Marg": [
+  { "station": "Udyog Bhawan", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Jor Bagh", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Jor Bagh": [
+  { "station": "Lok Kalyan Marg", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "INA (yellow line)", "time": 2, "cost": 5, "line": "yellow" }
+],
+"INA (yellow line)": [
+  { "station": "Jor Bagh", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "AIIMS", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "INA (pink line)", "time": 5, "cost": 0, "line": "pink" }
+],
+"AIIMS": [
+  { "station": "INA (yellow line)", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Green Park", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Green Park": [
+  { "station": "AIIMS", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Hauz Khas", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Hauz Khas": [
+  { "station": "Green Park", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Malviya Nagar", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Malviya Nagar": [
+  { "station": "Hauz Khas", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Saket", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Saket": [
+  { "station": "Malviya Nagar", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Qutub Minar", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Qutub Minar": [
+  { "station": "Saket", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Chhatarpur", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Chhatarpur": [
+  { "station": "Qutub Minar", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Sultanpur", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Sultanpur": [
+  { "station": "Chhatarpur", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Ghitorni", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Ghitorni": [
+  { "station": "Sultanpur", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Arjangarh", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Arjangarh": [
+  { "station": "Ghitorni", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Guru Dronacharya", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Guru Dronacharya": [
+  { "station": "Arjangarh", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Sikandarpur", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Sikandarpur": [
+  { "station": "Guru Dronacharya", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "MG Road", "time": 2, "cost": 5, "line": "yellow" }
+],
+"MG Road": [
+  { "station": "Sikandarpur", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "IFFCO Chowk", "time": 2, "cost": 5, "line": "yellow" }
+],
+"IFFCO Chowk": [
+  { "station": "MG Road", "time": 2, "cost": 5, "line": "yellow" },
+  { "station": "Huda City Centre", "time": 2, "cost": 5, "line": "yellow" }
+],
+"Huda City Centre": [
+  { "station": "IFFCO Chowk", "time": 2, "cost": 5, "line": "yellow" }
+],
+
+
+
+
+
+
+
+
+
+
+
+  "New Ashok Nagar (rrts)": [
+    { "station": "Anand Vihar (rrts)", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "New Ashok Nagar", "time": 5, "cost": 0, "line": "blue" }
+  ],
+  "Anand Vihar (rrts)": [
+    { "station": "New Ashok Nagar (rrts)", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Sahibabad", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Anand Vihar (blue line)", "time": 5, "cost": 20,"line": "blue" },
+    { "station": "Anand Vihar (pink line)", "time": 5, "cost": 20, "line": "pink" }
+  ],
+  "Sarai Kale Khan(rrts)": [
+    { "station": "New Ashok Nagar (rrts)", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Sarai Kale Khan-Nizamuddin", "time": 5, "cost": 0, "line": "pink" }
+  ],
+  "Sahibabad": [
+    { "station": "Sarai Kale Khan(rrts)", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Ghaziabad", "time": 5, "cost": 20,"line": "rrts" }
+  ],
+
+  "Ghaziabad": [
+    { "station": "Sahibabad", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Guldhar", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Guldhar": [
+    { "station": "Ghaziabad", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Duhai", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Duhai": [
+    { "station": "Guldhar", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Duhai Depot", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Duhai Depot": [
+    { "station": "Duhai", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Murad Nagar", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Murad Nagar": [
+    { "station": "Duhai Depot", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Modi Nagar South", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Modi Nagar South": [
+    { "station": "Murad Nagar", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Modi Nagar North", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+  "Modi Nagar North": [
+    { "station": "Modi Nagar South", "time": 5, "cost": 20, "line": "rrts" },
+    { "station": "Meerut South", "time": 5, "line": "rrts" }
+  ],
+  "Meerut South": [
+    { "station": "Modi Nagar North", "time": 5, "cost": 20, "line": "rrts" }
+  ],
+
+
+
+
+
+
+
+  "Noida Sector 51": [
+  { "station": "Noida Sector 50", "time": 2, "cost": 5, "line": "aqua" },
+  { "station": "Noida Sector 52", "time": 10, "cost": 0, "line": "blue" }
+  ],
+  "Noida Sector 50": [
+    { "station": "Noida Sector 51", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 76", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 76": [
+    { "station": "Noida Sector 50", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 101", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 101": [
+    { "station": "Noida Sector 76", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 81", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 81": [
+    { "station": "Noida Sector 101", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "NSEZ", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "NSEZ": [
+    { "station": "Noida Sector 81", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 83", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 83": [
+    { "station": "NSEZ", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 137", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 137": [
+    { "station": "Noida Sector 83", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 142", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 142": [
+    { "station": "Noida Sector 137", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 143", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 143": [
+    { "station": "Noida Sector 142", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 144", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 144": [
+    { "station": "Noida Sector 143", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 145", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 145": [
+    { "station": "Noida Sector 144", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 146", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 146": [
+    { "station": "Noida Sector 145", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 147", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 147": [
+    { "station": "Noida Sector 146", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Noida Sector 148", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Noida Sector 148": [
+    { "station": "Noida Sector 147", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Knowledge Park II", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Knowledge Park II": [
+    { "station": "Noida Sector 148", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Pari Chowk", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Pari Chowk": [
+    { "station": "Knowledge Park II", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Alpha 1", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Alpha 1": [
+    { "station": "Pari Chowk", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Delta 1", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Delta 1": [
+    { "station": "Alpha 1", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "GNIDA Office", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "GNIDA Office": [
+    { "station": "Delta 1", "time": 2, "cost": 5, "line": "aqua" },
+    { "station": "Depot", "time": 2, "cost": 5, "line": "aqua" }
+  ],
+  "Depot": [
+    { "station": "GNIDA Office", "time": 2, "cost": 5, "line": "aqua" }
+  ]
+
+
+}
+
+
+

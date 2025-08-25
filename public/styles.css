@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   background: #f9f9f9;
   margin: 0;
@@ -99,4 +99,155 @@ button:hover {
   border-radius: 50%;
   vertical-align: middle;
 }
+ */
 
+
+
+
+
+
+
+
+ body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e3f2fd);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1a237e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #37474f;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.tagline{
+  text-align: center;
+}
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background: linear-gradient(135deg, #3949ab, #5c6bc0);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #283593, #3f51b5);
+}
+
+.result {
+  margin-top: 30px;
+}
+
+/* Metro route timeline */
+.route-timeline {
+  position: relative;
+  margin-left: 40px;
+  padding-left: 20px;
+  border-left: 3px solid #ccc;
+}
+
+.station-item {
+  margin: 20px 0;
+  position: relative;
+}
+
+/* Dot before each station */
+.station-item::before {
+  content: '';
+  position: absolute;
+  left: -31px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--dot-color, #2196f3);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #ccc;
+}
+
+/* Station name always dark grey/black */
+.station-name {
+  font-size: 15px;
+  color: #222;   /* fixed black-family */
+  font-weight: 500;
+}
+
+/* Line name (colored dynamically in JS) */
+.line-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* Metro route timeline */
+.route-timeline {
+  position: relative;
+  margin-left: 40px;
+  padding-left: 20px;
+  border-left: 3px solid #ccc;
+}
+
+.station-item {
+  margin: 20px 0;
+  position: relative;
+}
+
+/* Dot before each station */
+.station-item::before {
+  content: '';
+  position: absolute;
+  left: -31px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--dot-color, #2196f3);  /* use CSS variable instead of fixed blue */
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #ccc;
+}
+
+.station-name {
+  font-size: 15px;
+  color: #333;
+}
+
+.line-name {
+  font-size: 13px;
+  color: #666;
+}

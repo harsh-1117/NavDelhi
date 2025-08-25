@@ -232,6 +232,7 @@ async function getRoute() {
 //   });
 // }
 
+
 function renderResult(data) {
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = '';
@@ -243,47 +244,33 @@ function renderResult(data) {
                     <strong>Interchanges:</strong> ${data.interchanges}`;
   resultDiv.appendChild(info);
 
-  // Create table
-  const table = document.createElement('table');
-  table.classList.add('route-table');
-
-  // Create header
-  const thead = document.createElement('thead');
-  thead.innerHTML = `
-    <tr>
-      <th>#</th>
-      <th>Station</th>
-      <th>Line</th>
-      <th>Rail</th>
-      <th>Interchange</th>
-    </tr>
-  `;
-  table.appendChild(thead);
-
-  const tbody = document.createElement('tbody');
+  // Timeline route
+  const timeline = document.createElement('div');
+  timeline.classList.add('route-timeline');
 
   data.path.forEach((step, index) => {
-    const row = document.createElement('tr');
+    const stationDiv = document.createElement('div');
+    stationDiv.classList.add('station-item');
 
-    const rail = getRailNetwork(step.line); // Custom function below
+    const lineColor = getLineColor(step.line);
 
-    row.innerHTML = `
-      <td>${index + 1}</td>
-      <td>${step.station}</td>
-      <td>
-        <span class="line-dot" style="background-color:${getLineColor(step.line)};"></span>
-        ${step.line || 'Start'}
-      </td>
-      <td>${rail}</td>
-      <td>${step.interchange ? 'Yes' : '-'}</td>
+    stationDiv.innerHTML = `
+      <div class="station-name" style="color:${lineColor};">${step.station}</div>
+      <div class="line-name">(${step.line || 'Start'})</div>
     `;
 
-    tbody.appendChild(row);
+    // Apply dot color dynamically
+    stationDiv.style.setProperty("--dot-color", lineColor);
+
+    timeline.appendChild(stationDiv);
   });
 
-  table.appendChild(tbody);
-  resultDiv.appendChild(table);
+  resultDiv.appendChild(timeline);
 }
+
+
+
+
 
 
 function getLineColor(line) {

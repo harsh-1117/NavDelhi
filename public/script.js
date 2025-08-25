@@ -184,7 +184,7 @@ async function getRoute() {
   const source = document.getElementById('source').value.trim();
   const destination = document.getElementById('destination').value.trim();
 
-  const response = await fetch('http://localhost:5001/api/route', {
+  const response = await fetch('https://navdelhi.onrender.com/api/route', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

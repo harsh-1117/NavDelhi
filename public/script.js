@@ -172,13 +172,13 @@ stationList.forEach(station => {
   datalist.appendChild(option);
 });
 
-function getLineColor(line) {
-  const colors = {
-    blue: '#007bff',
-    pink: '#ff69b4'
-  };
-  return colors[line] || '#999';
-}
+// function getLineColor(line) {
+//   const colors = {
+//     blue: '#007bff',
+//     pink: '#ff69b4'
+//   };
+//   return colors[line] || '#999';
+// }
 
 async function getRoute() {
   const source = document.getElementById('source').value.trim();

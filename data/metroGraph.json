@@ -1,7 +1,4 @@
 {
-
-
-
   "Dwarka Sector 21": [{ "station": "Dwarka Sector 8", "time": 2, "cost": 5, "line": "blue" }],
   "Dwarka Sector 8": [
     { "station": "Dwarka Sector 21", "time": 2, "cost": 5, "line": "blue" },
@@ -386,8 +383,6 @@
 
 
 
-
-
   
   "Samaypur Badli": [
     { "station": "Rohini Sector 18, 19", "time": 2, "cost": 5, "line": "yellow" }
@@ -530,11 +525,6 @@
 "Huda City Centre": [
   { "station": "IFFCO Chowk", "time": 2, "cost": 5, "line": "yellow" }
 ],
-
-
-
-
-
 
 
 
@@ -684,6 +674,3 @@
 
 
 }
-
-
-

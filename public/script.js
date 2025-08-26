@@ -164,7 +164,7 @@ const stationList = [
 
 ];
 
-// Populate datalist
+
 const datalist = document.getElementById('stations');
 stationList.forEach(station => {
   const option = document.createElement('option');
@@ -172,13 +172,6 @@ stationList.forEach(station => {
   datalist.appendChild(option);
 });
 
-// function getLineColor(line) {
-//   const colors = {
-//     blue: '#007bff',
-//     pink: '#ff69b4'
-//   };
-//   return colors[line] || '#999';
-// }
 
 async function getRoute() {
   const source = document.getElementById('source').value.trim();
@@ -201,50 +194,17 @@ async function getRoute() {
   renderResult(data);
 }
 
-// function renderResult(data) {
-//   const resultDiv = document.getElementById('result');
-//   resultDiv.innerHTML = '';
-
-//   const info = document.createElement('p');
-//   info.innerHTML = `<strong>Total Travel Time:</strong> ${data.travelTime} <br>
-//                     <strong>Total Cost:</strong> ₹${data.cost} <br>
-//                     <strong>Interchanges:</strong> ${data.interchanges}`;
-//   resultDiv.appendChild(info);
-
-//   data.path.forEach((step, index) => {
-//     const div = document.createElement('div');
-//     div.classList.add('station');
-
-//     const colorDot = document.createElement('div');
-//     colorDot.className = 'line-color';
-//     colorDot.style.backgroundColor = getLineColor(step.line);
-
-//     const name = document.createElement('span');
-//     name.textContent = `${step.station} (${step.line || 'Start'})`;
-
-//     if (step.interchange) {
-//       name.innerHTML += ' <span class="interchange">(Interchange)</span>';
-//     }
-
-//     div.appendChild(colorDot);
-//     div.appendChild(name);
-//     resultDiv.appendChild(div);
-//   });
-// }
-
 
 function renderResult(data) {
   const resultDiv = document.getElementById('result');
   resultDiv.innerHTML = '';
 
-  // Info summary
   const info = document.createElement('p');
   info.innerHTML = `<strong>Total Travel Time:</strong> ${data.travelTime} <br>
                     <strong>Total Cost:</strong> ₹${data.cost} <br>
                     <strong>Interchanges:</strong> ${data.interchanges}`;
   resultDiv.appendChild(info);
 
-  // Timeline route
   const timeline = document.createElement('div');
   timeline.classList.add('route-timeline');
 
@@ -259,7 +219,6 @@ function renderResult(data) {
       <div class="line-name">(${step.line || 'Start'})</div>
     `;
 
-    // Apply dot color dynamically
     stationDiv.style.setProperty("--dot-color", lineColor);
 
     timeline.appendChild(stationDiv);
@@ -267,10 +226,6 @@ function renderResult(data) {
 
   resultDiv.appendChild(timeline);
 }
-
-
-
-
 
 
 function getLineColor(line) {
